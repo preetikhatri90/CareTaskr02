@@ -10,8 +10,7 @@ const combobox = await page.getByRole('combobox');
 
     await combobox.click();
     await combobox.fill('Apple');
-
-    
+    console.log('combobox')
     await page.keyboard.press('Enter');
 
 
